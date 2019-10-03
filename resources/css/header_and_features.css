@@ -6,6 +6,7 @@ header {
     background-size: cover;
     background-position: centered;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 /**********                         HEADINGS                           *************/
