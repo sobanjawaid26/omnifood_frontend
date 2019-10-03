@@ -1,0 +1,162 @@
+/* ***********************************************************************************
+                                    HEADERS
+************************************************************************************* */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: centered;
+    height: 100vh;
+}
+
+.heading-1,
+.heading-2,
+.heading-3
+ {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.heading-1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 240%;
+    word-spacing: 3px;
+}
+
+.heading-2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.heading-2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px; 
+}
+
+.heading-3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/**********                         PARAGRAPHS                           *************/
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/**********                         BUTTONS                           *************/
+
+.btn:link,
+.btn:visited
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+.btn-full:link,
+.btn-full:visited
+{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+.btn-ghost:link,
+.btn-ghost:visited
+{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+.btn:active,
+.btn:hover
+{
+    background-color: #ff9404;
+}
+.btn-full:active,
+.btn-full:hover
+{
+    background-color: #ff9404;
+}
+.btn-ghost:active,
+.btn-ghost:hover
+{
+    background-color: #ff9404;
+    color: #fff;
+}
+
+/**********                         NAVBAR                           *************/
+
+.logo {
+    margin-top: 20px;
+    float:left;
+    height: 100px;
+    width: auto;
+}
+.main-nav {
+    margin-top: 30px;
+    float: right;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border-bottom 0.5s;
+}
+.main-nav li a:active,
+.main-nav li a:hover {
+    border-bottom: 1px solid #ff9404;
+}
+section {
+    padding: 80px 0;
+}
+
+/* ***********************************************************************************
+                                    FEATURES
+************************************************************************************* */
+
+
+/************                        ICONS                             ******************/
+
+.icon-big {
+    font-size: 400%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+/************                      PARAGRAPHS                          ****************/
+
+.long-copy {
+    line-height:145%;
+    width: 70%;
+    margin-left:15%;
+}
+
