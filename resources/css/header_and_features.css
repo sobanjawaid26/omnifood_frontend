@@ -8,6 +8,9 @@ header {
     height: 100vh;
 }
 
+/**********                         HEADINGS                           *************/
+
+
 .heading-1,
 .heading-2,
 .heading-3
@@ -158,5 +161,6 @@ section {
     line-height:145%;
     width: 70%;
     margin-left:15%;
+    margin-bottom: 40px;
 }
 
