@@ -1,0 +1,28 @@
+.footer-nav {
+    float: left;
+    link-style: none;
+}
+
+.social-links {
+    float: right;
+    link-style: style;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited,
+.social-media-link:link,
+.social-media-link:visited {
+    text-decoration: none;
+    color: #e67e22;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.3s, color 0.3s;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:hover,
+.social-media-link:hover,
+.social-media-link:active {
+    color: #555;
+    border-bottom: 1px solid #555;
+}

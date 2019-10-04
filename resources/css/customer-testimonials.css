@@ -1,0 +1,39 @@
+/* ***********************************************************************************
+                                    CUSTOMER TESTIMONIALS
+************************************************************************************* */
+
+.section-testimonials {
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/back-customers.jpg');
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed; 
+}
+
+blockquote {
+    padding:2px;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -3px;;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}

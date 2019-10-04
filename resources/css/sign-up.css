@@ -50,33 +50,3 @@
     text-align: center;
 }
 
-/* ***********************************************************************************
-                                    CONTACT-FORM
-************************************************************************************* */
-
-.contact-form {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.form-input[type=text],
-.form-input[type=email],
-.find-us,
-.form-textarea {
-    width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid grey;
-}
-
-.textarea {
-    height: 100px;
-}
-
-.form-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
-
-*:focus {
-    outline:none;
-}
