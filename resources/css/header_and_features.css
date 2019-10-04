@@ -69,7 +69,8 @@ header {
 /**********                         BUTTONS                           *************/
 
 .btn:link,
-.btn:visited
+.btn:visited,
+.form-input[type=submit]
 {
     display: inline-block;
     padding: 10px 30px;
@@ -79,7 +80,8 @@ header {
     transition: background-color 0.5s;
 }
 .btn-full:link,
-.btn-full:visited
+.btn-full:visited,
+.form-input[type=submit]
 {
     background-color: #e67e22;
     border: 1px solid #e67e22;
@@ -92,12 +94,14 @@ header {
     color: #e67e22;
 }
 .btn:active,
-.btn:hover
+.btn:hover,
+.form-input[type=submit]:hover,
+.form-input[type=submit]:hover
 {
     background-color: #ff9404;
 }
 .btn-full:active,
-.btn-full:hover
+.btn-full:hover,
 {
     background-color: #ff9404;
 }
